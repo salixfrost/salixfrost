@@ -1,29 +1,29 @@
-name: 🐍 Auto Update GitHub Profile & Snake Game
+name: 🐍 Generate GitHub Contribution Snake
+
 on:
   schedule:
-    - cron: "0 0 * * *"  # 每天 UTC 0 点运行（北京时间 8 点）
-  workflow_dispatch:     # 允许手动触发
+    - cron: "0 0 * * *" # 每天自动更新
+  workflow_dispatch:    # 允许手动触发
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: 🚀 Checkout code
+      - name: 🚀 Checkout
         uses: actions/checkout@v4
 
-      # 生成贪吃蛇 SVG 动图
-      - name: 🐍 Generate snake game from contribution graph
+      - name: 🐍 Generate Snake Game
         uses: Platane/snk@v3.4.1
         with:
           github_user_name: ${{ github.repository_owner }}
+          # 只生成两个 SVG 文件（移除 dist/ 前缀，直接生成在根目录）
           outputs: |
             github-snake.svg
             github-snake-dark.svg?palette=github-dark
 
-      # 提交生成的蛇图到仓库
-      - name: 📤 Commit snake images
+      - name: 📤 Commit Changes
         uses: EndBug/add-and-commit@v9
         with:
-          message: "🐍 Update GitHub contribution snake"
+          message: "chore: generate contribution snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
