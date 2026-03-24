@@ -1,24 +1,29 @@
-name: Auto Update README
+name: 🐍 Auto Update GitHub Profile & Snake Game
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: "0 0 * * *"  # 每天 UTC 0 点运行（北京时间 8 点）
+  workflow_dispatch:     # 允许手动触发
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: 🚀 Checkout code
+        uses: actions/checkout@v4
 
-      - name: Update README
-        uses: actions/github-script@v7
+      # 生成贪吃蛇 SVG 动图
+      - name: 🐍 Generate snake game from contribution graph
+        uses: Platane/snk@v3.4.1
         with:
-          script: |
-            console.log("Workflow running successfully!")
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            github-snake.svg
+            github-snake-dark.svg?palette=github-dark
 
-      - name: Commit changes
+      # 提交生成的蛇图到仓库
+      - name: 📤 Commit snake images
         uses: EndBug/add-and-commit@v9
         with:
-          message: "Update README"
+          message: "🐍 Update GitHub contribution snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
