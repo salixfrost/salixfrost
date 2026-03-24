@@ -26,7 +26,7 @@ jobs:
 > Last updated: ${time}
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs?username=salixfrost&hide_border=false&theme=vue&include_all_commits=true&layout=compact&hide=html,css)
-![Skills](https://skillicons.dev/icons?i=js,ts,nodejs,py,git,github,vscode,linux,githubactions)`;
+![Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)`;
 
             fs.writeFileSync('TECH_STACK.md', content);
 
