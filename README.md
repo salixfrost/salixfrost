@@ -7,8 +7,8 @@
 ---
 
 ## 🧱 Tech Stack
-![Tech Stack](https://raw.githubusercontent.com/salixfrost/salixfrost/main/TECH_STACK.md)
+[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
 
 ---
 
-<img src="https://www.reddit.com/r/ProgrammerHumor/" width="350px"/>
+[Reddit ProgrammerHumor](https://www.reddit.com/r/ProgrammerHumor/)
