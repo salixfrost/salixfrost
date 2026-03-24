@@ -13,4 +13,6 @@
 ---
 
 ## 🧱 Tech Stack
-[![My Skills](https://skillicons.dev/icons?i=javascript,typescript,python,react,vue,nodejs&perline=6)](https://skillicons.dev)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=javascript,typescript,python,react,vue,nodejs&perline=6" />
+</div>
