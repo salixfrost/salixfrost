@@ -1,8 +1,14 @@
 ### 📈 GitHub Stats
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=salixfrost&theme=dracula)
-![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=salixfrost&theme=dracula&utcOffset=8)
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=salixfrost&theme=dracula)
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=salixfrost&theme=dracula)
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=salixfrost&show_icons=true&theme=radical&hide_border=true&hide=prs&include_all_commits=true" height="180" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=salixfrost&theme=radical&hide_border=true&layout=compact" height="180" alt="languages" />
+</p>
+
+---
+
+### 📊 Activity Graph
+[![salixfrost's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=salixfrost&theme=radical&bg_color=151515&color=ff6b6b&line=ff6b6b&point=ff6b6b&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
