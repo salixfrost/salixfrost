@@ -1,27 +1,12 @@
-name: 🎨 Auto Update GitHub Profile README
+# 👋 Hi, there
+### 🚀 About Me
+- 🔭 正在探索：前端开发 / Python / 自动化工具
+- 💬 擅长：Git / 终端环境配置 / 代码美化
+- ⚡ 兴趣：开源项目、效率工具、游戏开发
 
-# 每天自动更新（北京时间 8 点）
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch: # 允许手动触发运行
+### 📊 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=salixfrost&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=salixfrost&layout=compact&theme=tokyonight)
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 🚀 获取仓库代码
-        uses: actions/checkout@v4
-
-      - name: 📊 更新统计卡片 & 动态内容
-        uses: omurilo/github-profile-readme-generator@main
-        with:
-          # 你的 GitHub 用户名
-          username: ${{ github.repository_owner }}
-          
-      - name: 📤 提交并推送更新
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: "✅ Auto update profile README"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+### 🏆 Achievements
+![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=salixfrost&theme=tokyonight)
