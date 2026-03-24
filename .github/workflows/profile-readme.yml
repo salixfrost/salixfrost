@@ -2,28 +2,25 @@ name: 🐍 Generate GitHub Contribution Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 每天自动更新
-  workflow_dispatch:    # 允许手动触发
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: 🚀 Checkout
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: 🐍 Generate Snake Game
-        uses: Platane/snk@v3.4.1
+      - name: Generate Snake
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # 只生成两个 SVG 文件（移除 dist/ 前缀，直接生成在根目录）
           outputs: |
             github-snake.svg
             github-snake-dark.svg?palette=github-dark
 
-      - name: 📤 Commit Changes
+      - name: Commit Changes
         uses: EndBug/add-and-commit@v9
-        with:
-          message: "chore: generate contribution snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
