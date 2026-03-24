@@ -9,5 +9,5 @@
 
 ---
 
-# 🧱 Tech Stack
+## 🧱 Tech Stack
 ![Tech Stack](https://raw.githubusercontent.com/salixfrost/salixfrost/main/TECH_STACK.md)
