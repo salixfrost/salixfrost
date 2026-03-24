@@ -1,3 +1,9 @@
+### 👋 Hi, I'm salixfrost
+
+A passionate developer building elegant solutions with code. I believe in creating impactful software that makes a difference.
+
+---
+
 ### 📈 GitHub Stats
 
 <p align="center">
