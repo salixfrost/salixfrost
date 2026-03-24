@@ -7,8 +7,4 @@
 ---
 
 ## 🧱 Tech Stack
-[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
-
----
-
-[Reddit ProgrammerHumor](https://www.reddit.com/r/ProgrammerHumor/)
+[![My Skills](https://skillicons.dev/icons?i=javascript,typescript,python,react,vue,nodejs&perline=3)](https://skillicons.dev)
