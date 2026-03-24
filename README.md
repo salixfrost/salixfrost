@@ -3,8 +3,8 @@
 ### 📊 GitHub Profile Summary
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=salixfrost&theme=vue)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/salixfrost/salixfrost/main/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/salixfrost/salixfrost/main/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/salixfrost/salixfrost/main/github-snake.svg" />
-</picture>
+### 📈 My GitHub Stats
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=salixfrost&theme=vue)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=salixfrost&theme=vue&utcOffset=8)
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=salixfrost&theme=vue)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=salixfrost&theme=vue)
