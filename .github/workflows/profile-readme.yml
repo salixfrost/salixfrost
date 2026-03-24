@@ -1,12 +1,24 @@
-# 👋 Hi, there
-### 🚀 About Me
-- 🔭 正在探索：前端开发 / Python / 自动化工具
-- 💬 擅长：Git / 终端环境配置 / 代码美化
-- ⚡ 兴趣：开源项目、效率工具、游戏开发
+name: Auto Update README
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
-### 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=salixfrost&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=salixfrost&layout=compact&theme=tokyonight)
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
 
-### 🏆 Achievements
-![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=salixfrost&theme=tokyonight)
+      - name: Update README
+        uses: actions/github-script@v7
+        with:
+          script: |
+            console.log("Workflow running successfully!")
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Update README"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
