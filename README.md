@@ -8,7 +8,7 @@ A passionate developer building elegant solutions with code. I believe in creati
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=salixfrost&show_icons=true&theme=github_dark&hide_border=true&hide=prs&include_all_commits=true" height="180" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=salixfrost&theme=github_dark&hide_border=true&layout=compact" height="180" alt="languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=salixfrost&theme=github_dark&hide_border=true&layout=compact&size_weight=1&count_weight=1" height="180" alt="languages" />
 </p>
 
 ---
