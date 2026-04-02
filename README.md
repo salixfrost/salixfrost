@@ -20,5 +20,10 @@ A passionate developer building elegant solutions with code. I believe in creati
 
 ## 🧱 Tech Stack
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=javascript,typescript,python,c,cpp,java,react,vue,nodejs,latex,git,markdown,vim&perline=6" />
+  <img src="https://skillicons.dev/icons?i=javascript,typescript,python,c,cpp,java,react,vue,nodejs&perline=8" />
+</div>
+
+## 🔧 Tools
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=git,markdown,latex,vim&perline=4" />
 </div>
