@@ -1,0 +1,5 @@
+# Ignore local artifacts
+node_modules/
+
+# Local helper docs
+CLAUDE.md

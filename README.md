@@ -1,4 +1,4 @@
-### 👋 Hi, I'm salixfrost
+### 👋 Hi, I'm frostsalix
 
 A passionate developer building elegant solutions with code. I believe in creating impactful software that makes a difference.
 
@@ -9,20 +9,20 @@ A passionate developer building elegant solutions with code. I believe in creati
 <br>
 
 <p align="center">
-  <img src="https://ghstats.dev/api/card?username=salixfrost&theme=github_dark&hide_border=true" height="180" alt="stats" />
-  <img src="https://ghstats.dev/api/langs?username=salixfrost&theme=github_dark&hide_border=true" height="180" alt="languages" />
+  <img src="https://ghstats.dev/api/card?username=frostsalix&theme=github_dark&hide_border=true" height="180" alt="stats" />
+  <img src="https://ghstats.dev/api/langs?username=frostsalix&theme=github_dark&hide_border=true" height="180" alt="languages" />
 </p>
 
 ### 📊 Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=salixfrost&theme=github_dark&bg_color=0d1117&color=c9d1d9&line=c9d1d9&point=c9d1d9&area=true" alt="Activity Graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=frostsalix&theme=github_dark&bg_color=0d1117&color=c9d1d9&line=c9d1d9&point=c9d1d9&area=true" alt="Activity Graph" width="100%" />
 </p>
 
 ### 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=salixfrost&theme=github_dark&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=frostsalix&theme=github_dark&hide_border=true" alt="GitHub Streak" />
 </p>
 
 </details>
